@@ -2,20 +2,20 @@
 
 ## Celery Broker: Redis
 
-shell```
+```shell
 # run on separate shell
 docker run --rm -it redis
 ```
 
 ## Celery Worker: Python
 
-shell```
+```shell
 # run on separate shell
 poetry run celery -A project worker -l INFO
 ```
 
 ## Python and Django
 
-shell```
+```shell
 poetry run python manage.py test_celery
 ```
