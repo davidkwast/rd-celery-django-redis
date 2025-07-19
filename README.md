@@ -1,0 +1,1 @@
+# rd-celery-django-redis
